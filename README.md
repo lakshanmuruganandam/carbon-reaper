@@ -1,6 +1,6 @@
 # carbon-reaper
 
-Calculate the brutal carbon footprint of your node_modules.
+Calculates the brutal carbon footprint of your node_modules directory, and gives you an interactive prompt to delete it all to save the Earth.
 
 ## 🚀 Usage
 
