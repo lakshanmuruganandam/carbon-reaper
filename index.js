@@ -8,6 +8,7 @@ import { Command } from 'commander';
 import boxen from 'boxen';
 import cliSpinners from 'cli-spinners';
 import logUpdate from 'log-update';
+import inquirer from 'inquirer';
 
 const program = new Command();
 
@@ -81,6 +82,20 @@ const run = async () => {
         { padding: 1, borderStyle: 'round', borderColor: 'red' }
       )
     );
+
+    const { confirm } = await inquirer.prompt([{
+      type: 'confirm',
+      name: 'confirm',
+      message: pc.green('Do you want to delete node_modules to save the Earth?'),
+      default: false
+    }]);
+
+    if (confirm) {
+      fs.rmSync(nmPath, { recursive: true, force: true });
+      console.log(pc.green('✔ Thank you. Mother Nature smiles upon you.'));
+    } else {
+      console.log(pc.gray('You chose convenience over the planet. Coward.'));
+    }
 
     console.log(pc.cyan('\nArchitected by @lakshanmuruganandam\n'));
 
