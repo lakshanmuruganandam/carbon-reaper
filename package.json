@@ -1,6 +1,6 @@
 {
   "name": "carbon-reaper",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Calculate the brutal carbon footprint of your node_modules.",
   "main": "index.js",
   "scripts": {
