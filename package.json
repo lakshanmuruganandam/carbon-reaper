@@ -1,0 +1,32 @@
+{
+  "name": "carbon-reaper",
+  "version": "1.0.0",
+  "description": "Calculate the brutal carbon footprint of your node_modules.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "carbon",
+    "footprint",
+    "node_modules",
+    "cli",
+    "environment",
+    "joke"
+  ],
+  "author": "Lakshan Muruganandam <lakshan@example.com>",
+  "license": "MIT",
+  "dependencies": {
+    "boxen": "^8.0.1",
+    "cli-spinners": "^3.4.0",
+    "commander": "^15.0.0",
+    "fast-glob": "^3.3.3",
+    "inquirer": "^14.0.2",
+    "log-update": "^8.0.0",
+    "picocolors": "^1.1.1"
+  },
+  "type": "module",
+  "bin": {
+    "carbon-reaper": "./index.js"
+  }
+}
