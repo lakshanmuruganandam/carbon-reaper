@@ -57,9 +57,3 @@ This project is [MIT](https://choosealicense.com/licenses/mit/) licensed.
 <div align="center">
   <sub>Architected with ❤️ by <a href="https://github.com/lakshanmuruganandam">@lakshanmuruganandam</a></sub>
 </div>
-
-
-### 🧠 AI Engine & Model Architecture
-This system is explicitly powered by **`deepseek-ai/deepseek-coder-33b-instruct`**.
-
-Rather than relying on closed-source APIs, we custom-engineered this agent to leverage the specific strengths of `deepseek-ai/deepseek-coder-33b-instruct`. This allows the agent to process complex inputs with significantly lower latency and higher accuracy, ensuring enterprise-grade performance while remaining entirely open-source.
